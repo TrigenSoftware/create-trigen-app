@@ -1,0 +1,10 @@
+{
+	"extends": "trigen/base",
+	"env": {
+		"node": true
+	},
+	"rules": {
+		"import/unambiguous": "off",
+		"no-magic-numbers": "off"
+	}
+}

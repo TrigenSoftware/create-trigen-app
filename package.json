@@ -1,0 +1,37 @@
+{
+  "name": "create-trigen-app",
+  "version": "1.0.0",
+  "description": "Create web app project.",
+  "author": "dangreen",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TrigenSoftware/create-trigen-app"
+  },
+  "bugs": {
+    "url": "https://github.com/TrigenSoftware/create-trigen-app/issues"
+  },
+  "bin": {
+    "create-trigen-app": "./src/index.js"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "scripts": {
+    "lint": "eslint 'src/**/*.js'",
+    "test": "npm run lint",
+    "cleanPublish": "npm run test && clean-publish"
+  },
+  "dependencies": {
+    "generator-trigen-app": "*",
+    "resolve-bin": "^0.4.0",
+    "yo": "*"
+  },
+  "devDependencies": {
+    "clean-publish": "^1.1.0",
+    "eslint": "^5.4.0",
+    "eslint-config-trigen": "^3.2.3",
+    "husky": "^1.0.0-rc.10",
+    "lint-staged": "^8.1.0"
+  }
+}
