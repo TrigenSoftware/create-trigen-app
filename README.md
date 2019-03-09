@@ -1,5 +1,5 @@
 
-# scripts
+# create-trigen-app
 
 [![NPM version][npm]][npm-url]
 [![Node version][node]][node-url]
