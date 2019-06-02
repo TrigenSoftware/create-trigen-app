@@ -23,7 +23,7 @@
     "cleanPublish": "trigen-scripts cleanPublish"
   },
   "dependencies": {
-    "generator-trigen-app": "^1.4.1",
+    "generator-trigen-app": "^1.4.3",
     "resolve-bin": "^0.4.0",
     "yo": "*"
   },
