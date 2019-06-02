@@ -1,0 +1,4 @@
+[
+	"@trigen/scripts-plugin-eslint",
+	"@trigen/scripts-preset-lib"
+]
