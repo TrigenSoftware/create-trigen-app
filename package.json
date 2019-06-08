@@ -28,8 +28,8 @@
     "yo": "*"
   },
   "devDependencies": {
-    "@trigen/scripts": "^2.2.0",
-    "@trigen/scripts-plugin-eslint": "^2.2.0",
-    "@trigen/scripts-preset-lib": "^2.2.0"
+    "@trigen/scripts": "2",
+    "@trigen/scripts-plugin-eslint": "2",
+    "@trigen/scripts-preset-lib": "2"
   }
 }
