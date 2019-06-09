@@ -1,0 +1,20 @@
+{
+  "generator-trigen-lib": {
+    "editPackage": true,
+    "pkg": {
+      "name": "create-trigen-app",
+      "version": "1.1.0",
+      "description": "Create web app project.",
+      "repository": "https://github.com/TrigenSoftware/create-trigen-app",
+      "author": "dangreen"
+    },
+    "type": "node",
+    "lang": "js",
+    "rollup": false,
+    "checkSize": false,
+    "jest": false,
+    "coverage": false,
+    "publishAsRoot": false,
+    "cleanPublish": true
+  }
+}
