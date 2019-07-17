@@ -1900,9 +1900,9 @@ gauge@~1.2.5:
     lodash.padstart "^4.1.0"
 
 generator-trigen-app@^1.4.4:
-  version "1.4.4"
-  resolved "https://registry.yarnpkg.com/generator-trigen-app/-/generator-trigen-app-1.4.4.tgz#07ea44a812730ff89298a54c607fd9874c050fe1"
-  integrity sha512-X2G6hU5wLRl4p/CNUmvN4OZUEhq3AAr0UtbfiyrDB0ssuuZcIyAIq+sYvB4lFIiNfpsnDEBidZxnGMizDiFWHQ==
+  version "1.4.5"
+  resolved "https://registry.yarnpkg.com/generator-trigen-app/-/generator-trigen-app-1.4.5.tgz#f20d5959c3e23c5316a715d94464180bd574e966"
+  integrity sha512-5mIVugp+eqq2Xo1w19/EiNiz3FpOdNWToS0YvWmEArik3iRfPsEPTrBiJC+7K+80TLVnVMYq2jlAau8hmhB0gA==
   dependencies:
     "@babel/runtime" "^7.4.5"
     axios "^0.19.0"
