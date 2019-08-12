@@ -23,14 +23,14 @@
     "cleanPublish": "trigen-scripts cleanPublish"
   },
   "dependencies": {
-    "generator-trigen-app": "^1.4.4",
+    "generator-trigen-app": "^1.5.0",
     "resolve-bin": "^0.4.0",
-    "yo": "*"
+    "yo": "3.1.0"
   },
   "devDependencies": {
-    "@trigen/scripts": "2",
-    "@trigen/scripts-plugin-eslint": "2",
-    "@trigen/scripts-preset-lib": "2"
+    "@trigen/scripts": "2.7.0",
+    "@trigen/scripts-plugin-eslint": "2.7.0",
+    "@trigen/scripts-preset-lib": "2.7.0"
   },
   "files": [
     "src"

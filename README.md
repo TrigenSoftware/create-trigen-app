@@ -4,7 +4,7 @@
 [![Node version][node]][node-url]
 [![Dependencies status][deps]][deps-url]
 [![Build status][build]][build-url]
-[![Greenkeeper badge][greenkeeper]][greenkeeper-url]
+[![Dependabot badge][dependabot]][dependabot-url]
 
 [npm]: https://img.shields.io/npm/v/create-trigen-app.svg
 [npm-url]: https://npmjs.com/package/create-trigen-app
@@ -15,11 +15,11 @@
 [deps]: https://david-dm.org/TrigenSoftware/create-trigen-app.svg
 [deps-url]: https://david-dm.org/TrigenSoftware/create-trigen-app
 
-[build]: http://img.shields.io/travis/com/TrigenSoftware/create-trigen-app.svg
+[build]: http://img.shields.io/travis/com/TrigenSoftware/create-trigen-app/master.svg
 [build-url]: https://travis-ci.com/TrigenSoftware/create-trigen-app
 
-[greenkeeper]: https://badges.greenkeeper.io/TrigenSoftware/create-trigen-app.svg
-[greenkeeper-url]: https://greenkeeper.io/
+[dependabot]: https://api.dependabot.com/badges/status?host=github&repo=TrigenSoftware/create-trigen-app
+[dependabot-url]: https://dependabot.com/
 
 Create web app project.
 
