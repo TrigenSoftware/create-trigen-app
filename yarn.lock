@@ -150,12 +150,12 @@
   resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-0.7.0.tgz#9a06f4f137ee84d7df0460c1fdb1135ffa6c50fd"
   integrity sha512-ONhaKPIufzzrlNbqtWFFd+jlnemX6lJAgq9ZeiZtS7I1PIf/la7CW4m83rTXRnVnsMbW2k56pGYu7AUFJD9Pow==
 
-"@trigen/scripts-plugin-eslint@2.7.0":
-  version "2.7.0"
-  resolved "https://registry.yarnpkg.com/@trigen/scripts-plugin-eslint/-/scripts-plugin-eslint-2.7.0.tgz#11828a8801c953967f1f47e1c131dcf94858013f"
-  integrity sha512-Vc1xfKBhqMDcn96vZTTM+NAmOyYjuWTeVB1TNm7Fo39pv1E4UY3F9pt1IbZLVfm2dRgF+kBwtic4hShj3HHidg==
+"@trigen/scripts-plugin-eslint@3.1.0":
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/@trigen/scripts-plugin-eslint/-/scripts-plugin-eslint-3.1.0.tgz#e27b14917f965950031dd8ffbb6fb5d36d8dfd0b"
+  integrity sha512-qrinP2OSzE+wtpCrgQkvzqsFIzBnFsIbso0Hxw9VVwA4R0XBl57b6cBrfqaXIZ1iibsBnSKmtrADk6M+S/8HIw==
   dependencies:
-    "@trigen/scripts" "^2.7.0"
+    "@trigen/scripts" "^3.1.0"
     eslint "^5.15.3"
     eslint-config-trigen "^3.2.3"
 
@@ -175,6 +175,18 @@
   version "2.7.0"
   resolved "https://registry.yarnpkg.com/@trigen/scripts/-/scripts-2.7.0.tgz#7a36334f65a868f8a424c73c3a36e6bfa0964b67"
   integrity sha512-xvRY6StDwCplpPQK1JzKopnYEQnhxa6mxPJz5D+ut39SblwcZWGcFFDG5QbbBWhurq9Lb0bnKhSfLNbHmWnLpw==
+  dependencies:
+    "@babel/runtime" "^7.4.2"
+    chalk "^2.4.2"
+    core-js "3"
+    immutability-helper "^3.0.0"
+    rcfile "^1.0.3"
+    resolve-cwd "^3.0.0"
+
+"@trigen/scripts@^3.1.0":
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/@trigen/scripts/-/scripts-3.1.0.tgz#d3919aa37c8c3b00a62052ad01a1d8ea8a6cccb4"
+  integrity sha512-1uxpNpQLozhhtypk3v1iwuYmk7MOOFLvU0I7pRaiRqfyIMrBgqygn3Ubc1GXEQ9wa8CYJkEbZ6Y1At7ZHF5SoA==
   dependencies:
     "@babel/runtime" "^7.4.2"
     chalk "^2.4.2"
@@ -3238,12 +3250,7 @@ lodash.padstart@^4.1.0:
   resolved "https://registry.yarnpkg.com/lodash.padstart/-/lodash.padstart-4.6.1.tgz#d2e3eebff0d9d39ad50f5cbd1b52a7bce6bb611b"
   integrity sha1-0uPuv/DZ05rVD1y9G1KnvOa7YRs=
 
-lodash@^4.17.10, lodash@^4.17.11, lodash@^4.17.2, lodash@^4.3.0:
-  version "4.17.15"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
-  integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
-
-lodash@^4.17.15:
+lodash@^4.17.10, lodash@^4.17.11, lodash@^4.17.15, lodash@^4.17.2, lodash@^4.3.0:
   version "4.17.15"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
   integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
