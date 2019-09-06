@@ -30,7 +30,7 @@
   "devDependencies": {
     "@trigen/scripts": "2.7.0",
     "@trigen/scripts-plugin-eslint": "2.7.0",
-    "@trigen/scripts-preset-lib": "2.7.0"
+    "@trigen/scripts-preset-lib": "3.1.0"
   },
   "files": [
     "src"
