@@ -57,14 +57,7 @@
   resolved "https://registry.yarnpkg.com/@babel/parser/-/parser-7.4.5.tgz#04af8d5d5a2b044a2a1bffacc1e5e6673544e872"
   integrity sha512-9mUqkL1FF5T7f0WDFfAoDdiMVPWsdD1gZYzSnaXsxUCUqzuch/8of9G3VUSNiZmMBoRxT3neyVsqeiL/ZPcjew==
 
-"@babel/runtime@^7.4.2", "@babel/runtime@^7.5.5":
-  version "7.5.5"
-  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.5.5.tgz#74fba56d35efbeca444091c7850ccd494fd2f132"
-  integrity sha512-28QvEGyQyNkB0/m2B4FU7IEZGK2NUrcMtT6BZEFALTguLk+AUT6ofsHtPk5QyjAdUkpMJ+/Em+quwz4HOt30AQ==
-  dependencies:
-    regenerator-runtime "^0.13.2"
-
-"@babel/runtime@^7.6.3":
+"@babel/runtime@^7.4.2", "@babel/runtime@^7.5.5", "@babel/runtime@^7.6.3":
   version "7.8.3"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.8.3.tgz#0811944f73a6c926bb2ad35e918dcc1bfab279f1"
   integrity sha512-fVHx1rzEmwB130VTkLnxR+HmxcTjGzH12LYQcFFoBwakMd3aOMD4OsRN7tGG/UOYE2ektgFrS8uACAoRk1CY0w==
@@ -2031,14 +2024,14 @@ gauge@~1.2.5:
     lodash.padend "^4.1.0"
     lodash.padstart "^4.1.0"
 
-generator-trigen-app@^1.5.0:
-  version "1.5.0"
-  resolved "https://registry.yarnpkg.com/generator-trigen-app/-/generator-trigen-app-1.5.0.tgz#73de19eca469713d8499298173bb03f3d7aeb7bb"
-  integrity sha512-V9+1XBumR0JdQc6LJhgZISS9ys9hfBpeL6ywvYK4g+oAIFWGQMAM+K9u3hGvioRvUkvfAZd905K94aewDXkwCQ==
+generator-trigen-app@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/generator-trigen-app/-/generator-trigen-app-2.0.0.tgz#459000182eb06ef9d6b219446f88babe5bb9a75b"
+  integrity sha512-Ekcc1F+odcDRXwOXQfoErhm1KJZjbEDDgb5veEL0ClYhPPSjDt1K2L8gWwlwIZaAwVuFmLIdbs6MdbA3ZU0/Hg==
   dependencies:
     "@babel/runtime" "^7.5.5"
     axios "^0.19.0"
-    chalk "^2.4.2"
+    chalk "^3.0.0"
     core-js "3"
     del "^5.0.0"
     unzipper "^0.10.3"
