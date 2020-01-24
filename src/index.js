@@ -1,5 +1,7 @@
 #!/usr/bin/env node
-const { spawnSync } = require('child_process');
+const {
+	spawnSync
+} = require('child_process');
 const resolveBin = require('resolve-bin');
 
 spawnSync(

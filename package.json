@@ -1,6 +1,6 @@
 {
   "name": "create-trigen-app",
-  "version": "1.2.0",
+  "version": "2.0.0",
   "description": "Create web app project.",
   "author": "dangreen",
   "license": "MIT",
@@ -15,7 +15,7 @@
     "create-trigen-app": "./src/index.js"
   },
   "engines": {
-    "node": ">=8.0.0"
+    "node": ">=10.0.0"
   },
   "scripts": {
     "lint": "trigen-scripts lint",
@@ -25,12 +25,12 @@
   "dependencies": {
     "generator-trigen-app": "^1.5.0",
     "resolve-bin": "^0.4.0",
-    "yo": "3.1.1"
+    "yo": "^3.1.1"
   },
   "devDependencies": {
-    "@trigen/scripts": "4.0.0",
-    "@trigen/scripts-plugin-eslint": "4.0.0",
-    "@trigen/scripts-preset-lib": "4.0.0"
+    "@trigen/scripts": "^4.0.0",
+    "@trigen/scripts-plugin-eslint": "^4.0.0",
+    "@trigen/scripts-preset-lib": "^4.0.0"
   },
   "files": [
     "src"
