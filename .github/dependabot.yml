@@ -1,0 +1,23 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "22:00"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: "@trigen/scripts-preset-lib"
+    versions:
+    - 7.0.6
+    - 7.3.3
+  - dependency-name: "@trigen/scripts-plugin-eslint"
+    versions:
+    - 7.0.6
+    - 7.3.3
+  - dependency-name: "@trigen/scripts"
+    versions:
+    - 7.0.2
+  - dependency-name: lodash
+    versions:
+    - 4.17.20
